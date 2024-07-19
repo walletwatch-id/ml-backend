@@ -1,4 +1,4 @@
-FROM python:3.11.9-bookworm as builder
+FROM python:3.11.9-bookworm AS builder
 
 WORKDIR /tmp
 
