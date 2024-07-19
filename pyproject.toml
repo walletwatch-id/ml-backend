@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "walletwatch-ml-backend"
+version = "0.1.0"
+description = ""
+authors = [
+  "Azis Rosyid <azisrosyid321@gmail.com>",
+  "Muhammad Naufal <me@falkia34.dev>",
+]
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+pandas = "^2.2.2"
+runpod = "^1.6.2"
+numpy = "^1.25.2"
+scikit-learn = "^1.5.1"
+onnxruntime = "^1.18.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
