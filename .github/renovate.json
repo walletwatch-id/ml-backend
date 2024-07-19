@@ -23,17 +23,10 @@
   },
   "packageRules": [
     {
-      "groupName": "python dependencies",
-      "matchManagers": [
-        "poetry",
-        "dockerfile"
-      ],
       "matchDepNames": [
         "python"
       ],
-      "labels": [
-        "dependencies"
-      ]
+      "enabled": false
     },
     {
       "groupName": "non-major dependencies",

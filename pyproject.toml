@@ -8,7 +8,7 @@ authors = [
 ]
 
 [tool.poetry.dependencies]
-python = "3.11.9"
+python = "^3.11"
 pandas = "^2.2.2"
 runpod = "^1.6.2"
 numpy = "^1.25.2"
