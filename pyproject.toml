@@ -9,11 +9,11 @@ authors = [
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pandas = "^2.2.2"
-runpod = "^1.6.2"
-numpy = "^1.25.2"
-scikit-learn = "^1.5.1"
-onnxruntime = "^1.18.1"
+pandas = "2.2.2"
+runpod = "1.6.2"
+numpy = "1.26.4"
+scikit-learn = "1.5.1"
+onnxruntime = "1.18.1"
 
 [build-system]
 requires = ["poetry-core"]
