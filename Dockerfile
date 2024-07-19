@@ -21,6 +21,8 @@ FROM runpod/base:0.6.2-cpu AS runner
 # Please refer to the base image's Dockerfile for more information before adding additional dependencies.
 # IMPORTANT: The base image overrides the default huggingface cache location.
 
+ENV PYTHON_VERSION="3.11"
+
 WORKDIR /app
 
 COPY --link --from=builder /tmp/.venv ./.venv
