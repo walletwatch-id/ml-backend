@@ -20,8 +20,8 @@ class LimitRepository(LimitRepositoryABC):
 
     def predict(self, features: LimitFeatures) -> int:
         features = {
-            'total_incomes': array([features.total_incomes]).reshape(-1, 1).astype(int64),
-            'total_transactions': array([features.total_transactions]).reshape(-1, 1).astype(int64),
+            'total_income': array([features.total_income]).reshape(-1, 1).astype(int64),
+            'total_installment': array([features.total_installment]).reshape(-1, 1).astype(int64),
             'personality': array([features.personality]).reshape(-1, 1),
             'last_month_limit': array([features.last_month_limit]).reshape(-1, 1).astype(float32)
         }
