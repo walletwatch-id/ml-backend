@@ -11,7 +11,7 @@ authors = [
 python = "^3.11"
 pandas = "2.2.2"
 runpod = "1.6.2"
-numpy = "1.26.4"
+numpy = "2.2.6"
 scikit-learn = "1.5.1"
 onnxruntime = "1.18.1"
 
